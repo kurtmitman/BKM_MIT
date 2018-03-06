@@ -1,0 +1,68 @@
+Starting Dynare (version 4.5.1).
+Starting preprocessing of the model file ...
+Found 15 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+Processing outputs ...
+done
+Preprocessing completed.
+[Warning: Some of the parameters have no value (rho_chi, sigma_chi) when using steady. If these parameters are
+not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the
+model...] 
+
+STEADY-STATE RESULTS:
+
+log_z 		 0
+a     		 1
+k     		 3.56229
+c     		 0.938158
+r     		 -3.34953
+w     		 0.863142
+z     		 1
+y     		 1.23441
+inv   		 0.881091
+phi   		 1
+s     		 0
+u_c   		 -0.938158
+h     		 -0.0750157
+q     		 1
+log_q 		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+             0.9              0.9                0
+            0.95             0.95                0
+          0.9575           0.9575                0
+           1.055            1.055                0
+       5.345e+16       -5.345e+16                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+
+There are 4 eigenvalue(s) larger than 1 in modulus 
+for 4 forward-looking variable(s)
+
+The rank condition is verified.
+
+[Warning: Some of the parameters have no value (rho_chi, sigma_chi) when using perfect_foresight_setup. If these
+parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to
+solve the model...] 
+
+--------------------------------------------------------
+MODEL SIMULATION:
+
+Iter: 1,	 err. = 0.0002, 	 time = 0.036175
+Iter: 2,	 err. = 1.3851e-07, 	 time = 0.013246
+Iter: 3,	 err. = 2.1316e-14, 	 time = 0.01224
+
+Total time of simulation: 0.082933
+--------------------------------------------------------
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m00s
+Note: warning(s) encountered in MATLAB/Octave code
