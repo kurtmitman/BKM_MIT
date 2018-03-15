@@ -266,4 +266,4 @@ q                    0.00            100.01            100.01
 log_q                0.00            100.01            100.01
 Note: numbers do not add up to 100 due to i) non-zero correlation of simulated shocks in small samples and ii) nonlinearity
 
-Total computing time : 0h00m02s
+Total computing time : 0h00m03s

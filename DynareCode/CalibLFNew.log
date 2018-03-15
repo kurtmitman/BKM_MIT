@@ -9,9 +9,8 @@ Computing dynamic model derivatives:
 Processing outputs ...
 done
 Preprocessing completed.
-[Warning: Some of the parameters have no value (rho_chi, sigma_chi) when using steady. If these parameters are
-not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the
-model...] 
+[Warning: Some of the parameters have no value (rho_chi, sigma_chi) when using steady. If these parameters are not initialized in a
+steadystate file or a steady_state_model-block, Dynare may not be able to solve the model...] 
 
 STEADY-STATE RESULTS:
 
@@ -48,18 +47,17 @@ for 4 forward-looking variable(s)
 
 The rank condition is verified.
 
-[Warning: Some of the parameters have no value (rho_chi, sigma_chi) when using perfect_foresight_setup. If these
-parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to
-solve the model...] 
+[Warning: Some of the parameters have no value (rho_chi, sigma_chi) when using perfect_foresight_setup. If these parameters are not
+initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to solve the model...] 
 
 --------------------------------------------------------
 MODEL SIMULATION:
 
-Iter: 1,	 err. = 0.0002, 	 time = 0.038305
-Iter: 2,	 err. = 1.3872e-07, 	 time = 0.013523
-Iter: 3,	 err. = 2.1316e-14, 	 time = 0.011867
+Iter: 1,	 err. = 0.0002, 	 time = 0.033811
+Iter: 2,	 err. = 1.3872e-07, 	 time = 0.011539
+Iter: 3,	 err. = 2.1316e-14, 	 time = 0.011792
 
-Total time of simulation: 0.084911
+Total time of simulation: 0.079668
 --------------------------------------------------------
 
 Perfect foresight solution found.
