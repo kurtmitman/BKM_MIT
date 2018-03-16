@@ -18,6 +18,11 @@ cd(CodeDir)
 
 %% Steady state computation
 
+clear;
+close all;
+SaveDir=[pwd '/Results/'];
+RepAgentDir=[pwd '/DynareCode/'];
+CodeDir=pwd;
 
 %Solve for the discount factor and labor disutility that clears the asset
 %at the calibrated K/Y ratio and delivers average working time of 1/3
