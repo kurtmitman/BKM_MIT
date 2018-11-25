@@ -100,11 +100,10 @@ for t=2:TT
     
  
     for j=1:ns
-        for ai = 1:nA_fine
-            apl = floor( (nA_fine-1)*((STfine(:,j,t-1)-params.Amin)/(params.Amax-params.Amin)).^(1/params.curv_fine) )+1;
-            apl=apl.*(apl<nA_fine)+(nA_fine-1)*(apl>=nA_fine);
-            vala = (params.Agrid_fine(apl+1)-STfine(:,j,t-1))./(params.Agrid_fine(apl+1)- params.Agrid_fine(apl));
-     
+        apl = floor( (nA_fine-1)*((STfine(:,j,t-1)-params.Amin)/(params.Amax-params.Amin)).^(1/params.curv_fine) )+1;
+        apl=apl.*(apl<nA_fine)+(nA_fine-1)*(apl>=nA_fine);
+        vala = (params.Agrid_fine(apl+1)-STfine(:,j,t-1))./(params.Agrid_fine(apl+1)- params.Agrid_fine(apl));
+        for ai = 1:nA_fine     
             for jp=1:ns
 %                 keyboard
                 OmegaT(apl(ai),jp,t) = OmegaT(apl(ai),jp,t)+OmegaT(ai,j,t-1)*params.piex(j,jp)*vala(ai);
